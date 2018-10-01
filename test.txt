@@ -1,0 +1,53 @@
+style={{color:"#61C4DC"}}
+        style={"font-size': '50px"}
+style={{color:"black"}}
+
+<WorkSection />
+<ProductSection />
+<TeamSection />
+
+Header na psaksw gia
+
+logo: PropTypes.image,
+
+
+  <Pagination />
+
+
+   <Link to="/" className={classes.dropdownLink}>
+              All components
+            </Link>
+
+   <img className={classes.inlineBlock}
+            style={{margin:"15px auto 35px", width: "76px"}}
+            src="assets/img/small-logoprt.png"
+          />
+
+
+      <Button
+                    justIcon
+                    color="transparent"
+                    className={classes.margin5}
+                  >
+                    <i className={classes.socials + " fab fa-twitter"} />
+                  </Button>
+
+                     <Button
+                    justIcon
+                    color="transparent"
+                    className={classes.margin5}
+                  >
+                    <i className={classes.socials + " fab fa-instagram"} />
+                  </Button>
+
+          <br />
+                  <small className={classes.smallTitle}>29 August 2018</small>
+
+
+ Feel free to
+                    add some <a href="#pablo">links</a> for people to be able to
+                    follow them outside the site.
+
+
+
+
