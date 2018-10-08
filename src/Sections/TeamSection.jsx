@@ -51,6 +51,7 @@ class TeamSection extends React.Component {
                   <Button
                     justIcon
                     color="transparent"
+                    target="_blank"
                     className={classes.margin5}
                     href="https://www.facebook.com/PrtPapachristosRunningTeam/photos/a.629901807055590/1945044008874690/?type=3&theater"
                   >
@@ -78,6 +79,7 @@ class TeamSection extends React.Component {
                   <Button
                     justIcon
                     color="transparent"
+                    target="_blank"
                     className={classes.margin5}
                     href="https://www.facebook.com/PrtPapachristosRunningTeam/photos/a.629901807055590/1882014168511008/?type=3&theater"
                   >
@@ -111,6 +113,7 @@ class TeamSection extends React.Component {
                   <Button
                     justIcon
                     color="transparent"
+                    target="_blank"
                     className={classes.margin5}
                     href="https://www.facebook.com/PrtPapachristosRunningTeam/photos/pcb.1875299682515790/1875299499182475/?type=3&theater"
                   >
@@ -138,8 +141,42 @@ class TeamSection extends React.Component {
                   <Button
                     justIcon
                     color="transparent"
+                    target="_blank"
                     className={classes.margin5}
                     href="https://www.facebook.com/PrtPapachristosRunningTeam/photos/a.629901807055590/1847543028624789/?type=3&theater"
+                  >
+                    <i className={classes.socials + " fab fa-facebook"} />
+                  </Button>
+                </CardFooter>
+              </Card>
+            </GridItem>
+            <GridItem xs={12} sm={12} md={4}>
+              <Card carousel>
+                <GridItem className={classes.imgCardTop}>
+                  <img src={require("../img/prt180626.jpg")} className={imageClasses} />
+                </GridItem>
+                <h3 className={classes.cardTitle}>
+                  26 June 2018
+                </h3>
+                <CardBody>
+                  <h4 className={classes.description} style={{color:"black"}}>
+                   Το καθημερινό πρόγραμμα ενός αθλητή αποτελείται απο πολλές ώρες εξαντλητικής προπόνησης. Σύμμαχος
+                    μας για καλύτερη αντοχή το Redoferro Max, το συμπλήρωμα σιδήρου που αντιμετωπίζει δραστικά τα 
+                    συμπτώματα κούρασης και κόπωσης ενισχύοντας την παραγωγή ενέργειας τοπικά στους μύες κατά την άσκηση. 
+                    Η Βιταμίνη C που περιέχει βοηθά στην αποτελεσματικότερη απορρόφηση του. Redoferro max και … σιδερένιος!!!
+                    Ευχαριστούμε την 
+                    εταιρεία <a href="https://www.facebook.com/Heremco/?__tn__=%2CdK*F-R&eid=ARBugMh_20K_pgrEMCbn9PGXTjkq79c3vDeZuCcjOxxxBO8MQvd0v86RAj6nEBI422qQjiSut89WqeC5"> Heremco Pharmaceuticals Ltd </a> για
+                     την βοήθεια που παρέχει στον αθλητη μας (Παλαιστίνιο πρόσφυγα, αθλητή 400μ-800μ) 
+                     Mohammed A Alrahban #redoferrο #ironsupplement #health #heremco
+                  </h4>
+                </CardBody>
+                <CardFooter className={classes.justifyCenter}>
+                  <Button
+                    justIcon
+                    color="transparent"
+                    target="_blank"
+                    className={classes.margin5}
+                    href="https://www.facebook.com/PrtPapachristosRunningTeam/photos/a.629901807055590/1845549682157457/?type=3&theater"
                   >
                     <i className={classes.socials + " fab fa-facebook"} />
                   </Button>

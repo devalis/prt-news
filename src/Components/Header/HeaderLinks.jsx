@@ -35,35 +35,35 @@ function HeaderLinks({ ...props }) {
           dropdownList={[
             <a
               href="https://devalis.github.io/"
-              target="_blank"
+              //target="_blank"
               className={classes.dropdownLink}
               >
               Home
             </a>,
             <a
               href="https://devalis.github.io/#service"
-              target="_blank"
+              //target="_blank"
               className={classes.dropdownLink}
             >
               Services
             </a>,
             <a
               href="https://devalis.github.io/#team"
-              target="_blank"
+              //target="_blank"
               className={classes.dropdownLink}
             >
               Coaches
             </a>,
             <a
               href="https://devalis.github.io/#Portfolio"
-              target="_blank"
+              //target="_blank"
               className={classes.dropdownLink}
             >
               Team
             </a>,
             <a
               href="https://devalis.github.io/#contact"
-              target="_blank"
+              //target="_blank"
               className={classes.dropdownLink}
             >
               Contact

@@ -27,21 +27,19 @@ function Footer({ ...props }) {
         <div className={classes.left}>
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
-              <a className={classes.inlineBlock}
+              <a
                 href="https://devalis.github.io/"
                 className={classes.block}
-                target="_blank"
-                style={{fontSize:"15px"}}
+                //target="_blank"
               >
                 Papachristos Running Team
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <a className={classes.inlineBlock}
-                href="https://www.ethicsport.gr/gr"
+              <a
+                href="https://www.ethicsport.gr/gr/"
                 className={classes.block}
                 target="_blank"
-                style={{fontSize:"15px"}}
               >
                 Ethic Sport
               </a>
