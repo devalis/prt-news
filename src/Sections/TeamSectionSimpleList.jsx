@@ -39,7 +39,7 @@ class TeamSection extends React.Component {
                   12 August 2018
                 </h3>
                 <CardBody>
-                  <h4 className={classes.description}>
+                  <h4 className={classes.description} style={{color:"black"}}>
                    Πολλά συγχαρητήρια στον αθλητή μας <a href="https://devalis.github.io/#team">Κώστα Γκελαούζο</a> που 
                    έκανε πολύ καλή εμφάνιση στον μαραθώνιο του ευρωπαϊκού πρωταθλήματος 
                    όπου τερμάτισε στην 44η θέση με επίδοση κοντά στο ατομικό του ρεκορ 2.22.24! 
@@ -70,7 +70,7 @@ class TeamSection extends React.Component {
                   20 July 2018
                 </h3>
                 <CardBody>
-                  <h4 className={classes.description}>
+                  <h4 className={classes.description} style={{color:"black"}}>
                    Χρυσό μετάλλιο για την <a href="https://devalis.github.io/#team">Κωνσταντίνα Γιαννοπούλου</a> στα 
                    800μ με 2'04"65 (καλύτερη φετινή επίδοση) στους Βαλκανικούς 
                    αγώνες Α/Γ πριν λίγο στη Στάρα Ζαγόρα! Συγχαρητήρια!!!
@@ -98,11 +98,11 @@ class TeamSection extends React.Component {
                   16 July 2018
                 </h3>
                 <CardBody>
-                  <h4 className={classes.description}>
+                  <h4 className={classes.description} style={{color:"black"}}>
                    Πανελλήνιο Πρωτάθλημα Α/Γ: 
                    2 χρυσά και 2 χάλκινα μετάλλια για τους αθλητές του <a href="https://devalis.github.io">PRT</a> στο 
                    πανελλήνιο πρωτάθλημα που διεξήχθη για 3η συνεχή χρονιά στο Πελοποννησιακό Στάδιο (Πάτρα).</h4>
-                  <h4 className={classes.description}>
+                  <h4 className={classes.description} style={{color:"black"}}>
                    1η θέση για την Κωνσταντία Γιαννόπουλου στα 800μ (για 3η χρονιά 2016-2017-2018) με επίδοση 2:07.58
                    1η θέση για τον Νικόλα Φράγκου στα 3000μΦ.Ε με επίδοση 9:05.89
                    3η θέση για την Αθήνα Κοϊνη στα 1500μ με επίδοση 4:23.89
@@ -132,7 +132,7 @@ class TeamSection extends React.Component {
                   27 June 2018
                 </h3>
                 <CardBody>
-                  <h4 className={classes.description}>
+                  <h4 className={classes.description} style={{color:"black"}}>
                    Συγχαρητήρια στην αθλήτρια του γκρουπ <a href="https://devalis.github.io/#team">Κωνσταντίνα Γιαννοπούλου</a> που 
                    τερμάτισε 3η στην πρώτη προκριματική σειρά και πήρε την πρόκριση στον τελικό των 800μ με επίδοση 2.04:99 
                    στους 18ους Μεσογειακους Αγώνες της Ταραγόνας. #Tarragona2018 #MediterraneanGames #800m
@@ -160,7 +160,7 @@ class TeamSection extends React.Component {
                   26 June 2018
                 </h3>
                 <CardBody>
-                  <h4 className={classes.description}>
+                  <h4 className={classes.description} style={{color:"black"}}>
                    Το καθημερινό πρόγραμμα ενός αθλητή αποτελείται απο πολλές ώρες εξαντλητικής προπόνησης. Σύμμαχος
                     μας για καλύτερη αντοχή το Redoferro Max, το συμπλήρωμα σιδήρου που αντιμετωπίζει δραστικά τα 
                     συμπτώματα κούρασης και κόπωσης ενισχύοντας την παραγωγή ενέργειας τοπικά στους μύες κατά την άσκηση. 

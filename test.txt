@@ -1,18 +1,8 @@
-style={{fontSize:"15px"}}
+grammatoseira century gothic
+apo pano
 
-xs={12} sm={12} md={4}
-prt180626.jpg
-https://www.facebook.com/PrtPapachristosRunningTeam/photos/a.629901807055590/1845549682157457/?type=3&theater
-<h4 className={classes.description} style={{color:"black"}}>
-                   Το καθημερινό πρόγραμμα ενός αθλητή αποτελείται απο πολλές ώρες εξαντλητικής προπόνησης. Σύμμαχος
-                    μας για καλύτερη αντοχή το Redoferro Max, το συμπλήρωμα σιδήρου που αντιμετωπίζει δραστικά τα 
-                    συμπτώματα κούρασης και κόπωσης ενισχύοντας την παραγωγή ενέργειας τοπικά στους μύες κατά την άσκηση. 
-                    Η Βιταμίνη C που περιέχει βοηθά στην αποτελεσματικότερη απορρόφηση του. Redoferro max και … σιδερένιος!!!
-                    Ευχαριστούμε την 
-                    εταιρεία <a href="https://www.facebook.com/Heremco/?__tn__=%2CdK*F-R&eid=ARBugMh_20K_pgrEMCbn9PGXTjkq79c3vDeZuCcjOxxxBO8MQvd0v86RAj6nEBI422qQjiSut89WqeC5"> Heremco Pharmaceuticals Ltd </a> για
-                     την βοήθεια που παρέχει στον αθλητη μας (Παλαιστίνιο πρόσφυγα, αθλητή 400μ-800μ) 
-                     Mohammed A Alrahban #redoferrο #ironsupplement #health #heremco
-                  </h4>
+
+style={{fontSize:"15px"}}
 
 
 style={{color:"#61C4DC"}}
@@ -65,6 +55,41 @@ logo: PropTypes.image,
                     add some <a href="#pablo">links</a> for people to be able to
                     follow them outside the site.
 
+
+to item me basi:
+ const { classes } = this.props;
+    const imageClasses = classNames(
+      classes.imgRaised,
+      classes.imgRounded,
+      classes.imgFluid
+    );
+
+<GridItem xs={12} sm={12} md={4}>
+              <Card carousel>
+                <GridItem className={classes.imgCardTop}>
+                  <img src={require({fbimgpath})} className={imageClasses} />
+                </GridItem>
+                <h3 className={classes.cardTitle}>
+                  {date}
+                </h3>
+                <CardBody>
+                  <h4 className={classes.description} style={{color:"black"}}>
+                   {description}
+                  </h4>
+                </CardBody>
+                <CardFooter className={classes.justifyCenter}>
+                  <Button
+                    justIcon
+                    color="transparent"
+                    target="_blank"
+                    className={classes.margin5}
+                    href={fbpost}
+                  >
+                    <i className={classes.socials + " fab fa-facebook"} />
+                  </Button>
+                </CardFooter>
+              </Card>
+            </GridItem>
 
 
 

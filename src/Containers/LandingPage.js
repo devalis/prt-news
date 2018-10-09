@@ -7,19 +7,19 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 
 // core components
-import Header from "./Components/Header/Header.jsx";
-import Footer from "./Components/Footer/Footer.jsx";
-import GridContainer from "./Components/Grid/GridContainer.jsx";
-import GridItem from "./Components/Grid/GridItem.jsx";
-import Button from "./Components/CustomButtons/Button.jsx";
-import HeaderLinks from "./Components/Header/HeaderLinks.jsx";
-import Parallax from "./Components/Parallax/Parallax.jsx";
+import Header from "../Components/Header/Header.jsx";
+import Footer from "../Components/Footer/Footer.jsx";
+import GridContainer from "../Components/Grid/GridContainer.jsx";
+import GridItem from "../Components/Grid/GridItem.jsx";
+import Button from "../Components/CustomButtons/Button.jsx";
+import HeaderLinks from "../Components/Header/HeaderLinks.jsx";
+import Parallax from "../Components/Parallax/Parallax.jsx";
 //import { favicon } from "./";
 
 import landingPageStyle from "./landingPageStyle.jsx";
 
 // Sections for this page
-import TeamSection from "./Sections/TeamSection.jsx";
+import TeamSection from "../Sections/TeamSection.jsx";
 
 
 const dashboardRoutes = [];
@@ -45,7 +45,7 @@ class LandingPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax filter image={require("./img/track.jpeg")}>
+        <Parallax filter image={require("../img/track.jpeg")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
