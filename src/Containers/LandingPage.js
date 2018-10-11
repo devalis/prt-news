@@ -11,7 +11,6 @@ import Header from "../Components/Header/Header.jsx";
 import Footer from "../Components/Footer/Footer.jsx";
 import GridContainer from "../Components/Grid/GridContainer.jsx";
 import GridItem from "../Components/Grid/GridItem.jsx";
-import Button from "../Components/CustomButtons/Button.jsx";
 import HeaderLinks from "../Components/Header/HeaderLinks.jsx";
 import Parallax from "../Components/Parallax/Parallax.jsx";
 //import { favicon } from "./";
@@ -19,7 +18,7 @@ import Parallax from "../Components/Parallax/Parallax.jsx";
 import landingPageStyle from "./landingPageStyle.jsx";
 
 // Sections for this page
-import TeamSection from "../Sections/TeamSection.jsx";
+import PostsList from "../Components/Card/PostsList.jsx";
 
 
 const dashboardRoutes = [];
@@ -56,7 +55,7 @@ class LandingPage extends React.Component {
         </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
-            <TeamSection />
+            <PostsList />
           </div>
         </div>
         <Footer />

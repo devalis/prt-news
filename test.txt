@@ -1,6 +1,7 @@
 grammatoseira century gothic
 apo pano
 
+require("../../img/prt180812.jpg")
 
 style={{fontSize:"15px"}}
 
