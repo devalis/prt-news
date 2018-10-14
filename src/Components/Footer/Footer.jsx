@@ -28,7 +28,7 @@ function Footer({ ...props }) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://devalis.github.io/"
+                href="https://paprunningteam.gr/"
                 className={classes.block}
                 //target="_blank"
               >
@@ -47,14 +47,7 @@ function Footer({ ...props }) {
           </List>
         </div>
         <div className={classes.right}>
-          Copyright &copy; 2018 by {" "}
-          <a
-            href="https://alisdev311646862.wordpress.com"
-            className={aClasses}
-            target="_blank"
-          >
-            alisdev
-          </a>
+          Copyright &copy; 2018 Papachristos Running Team
         </div>
       </div>
     </footer>
