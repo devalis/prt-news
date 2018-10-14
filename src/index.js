@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import LandingPage from './Containers/LandingPage';
+import App from './Containers/App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<LandingPage />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();

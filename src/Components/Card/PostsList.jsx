@@ -1,13 +1,10 @@
 import React from "react";
-// nodejs library that concatenates classes
-//import classNames from "classnames";
-// @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 
 // @material-ui/icons
 import GridContainer from "../Grid/GridContainer.jsx";
 import PostCard from "./PostCard.jsx";
-import LoadMore from "../LoadMore/LoadMore.jsx";
+//import LoadMore from "../LoadMore/LoadMore.jsx";
 
 import postCardStyle from "./postCardStyle.jsx";
 
@@ -23,7 +20,7 @@ class PostsList extends React.Component {
         <div>
           <GridContainer>
             {
-              posts.map((post, i) => {
+              posts.reverse().map((post, i) => {
                 return (
                   <PostCard 
                     key={i} 
@@ -35,7 +32,7 @@ class PostsList extends React.Component {
                   />
                 );
               })
-            }  
+            } 
           </GridContainer> 
         </div>
       </div>

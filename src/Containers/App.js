@@ -13,28 +13,19 @@ import GridContainer from "../Components/Grid/GridContainer.jsx";
 import GridItem from "../Components/Grid/GridItem.jsx";
 import HeaderLinks from "../Components/Header/HeaderLinks.jsx";
 import Parallax from "../Components/Parallax/Parallax.jsx";
-//import { favicon } from "./";
 
-import landingPageStyle from "./landingPageStyle.jsx";
+import appStyle from "./appStyle.jsx";
 
 // Sections for this page
 import PostsList from "../Components/Card/PostsList.jsx";
 
-
-const dashboardRoutes = [];
-
-class LandingPage extends React.Component {
+class App extends React.Component {
   render() {
     const { classes, ...rest } = this.props;
     return (
       <div>
         <Header
-        //style={{color:"#61C4DC"}}
-          //style={{fontSize:"10px"}}
           color="transparent"
-          routes={dashboardRoutes}
-          //icon={favicon}
-          //image={require("assets/img/small-logoprt.png")}
           brand="Papachristos Running Team"
           rightLinks={<HeaderLinks />}
           fixed
@@ -63,5 +54,4 @@ class LandingPage extends React.Component {
     );
   }
 }
-
-export default withStyles(landingPageStyle)(LandingPage);
+export default withStyles(appStyle)(App);

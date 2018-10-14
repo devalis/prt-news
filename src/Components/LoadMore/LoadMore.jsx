@@ -6,13 +6,14 @@ import withStyles from "@material-ui/core/styles/withStyles";
 
 // @material-ui/icons
 import buttonStyle from "../CustomButtons/buttonStyle.jsx";
+import {posts} from "../../posts.jsx";
 
 class LoadMore extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      items: [],
+      posts: [],
       visible: 2,
       error: false
     };
@@ -26,40 +27,40 @@ class LoadMore extends React.Component {
     });
   }
 
-  componentDidMount() {
-    fetch("https://jsonplaceholder.typicode.com/posts").then(
-      res => res.json()
-    ).then(res => {
-      this.setState({
-        items: res
-      });
-    }).catch(error => {
-      console.error(error);
-      this.setState({
-        error: true
-      });
-    });
-  }
+  // componentDidMount() {
+  //   fetch("https://jsonplaceholder.typicode.com/posts").then(
+  //     res => res.json()
+  //   ).then(res => {
+  //     this.setState({
+  //       posts: res
+  //     });
+  //   }).catch(error => {
+  //     console.error(error);
+  //     this.setState({
+  //       error: true
+  //     });
+  //   });
+  // }
 
   render() {
     return (
-      <section className="feed">
+      <section>
         <h1>Simple Load More/Pagination with React</h1>
         <h2>With Array.prototype.slice() and the power of component state!</h2>
 
-        <div className="tiles" aria-live="polite">
-          {this.state.items.slice(0, this.state.visible).map((item, index) => {
+        <div>
+          {this.state.posts.slice(0, this.state.visible).map((post, index) => {
               return (
-                <div className="tile fade-in" key={item.id}>
-                  <span className="count">{index+1}</span>
-                  <h2>{item.title}</h2>
-                  <p>{item.body}</p>
+                <div key={posts.id}>
+                  <span>{index+1}</span>
+                  <h2>{posts.title}</h2>
+                  <p>{posts.body}</p>
                 </div>
               );
             })}
           </div>
-          {this.state.visible < this.state.items.length &&
-             <button onClick={this.loadMore} type="button" className="load-more">Load more</button>
+          {this.state.visible < this.state.posts.length &&
+             <button onClick={this.loadMore} type="button">Load more</button>
           }
         </section>
     );
