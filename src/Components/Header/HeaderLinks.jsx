@@ -55,7 +55,7 @@ function HeaderLinks({ ...props }) {
               Coaches
             </a>,
             <a
-              href="https://devalis.github.io/#team"
+              href="https://devalis.github.io/#athletes"
               //target="_blank"
               className={classes.dropdownLink}
             >
