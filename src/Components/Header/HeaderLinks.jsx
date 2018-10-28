@@ -34,35 +34,35 @@ function HeaderLinks({ ...props }) {
           buttonIcon={Menu}
           dropdownList={[
             <a
-              href="https://devalis.github.io/"
+              href="https://paprunningteam.gr/"
               //target="_blank"
               className={classes.dropdownLink}
               >
               Home
             </a>,
             <a
-              href="https://devalis.github.io/#service"
+              href="https://paprunningteam.gr/#service"
               //target="_blank"
               className={classes.dropdownLink}
             >
               Services
             </a>,
             <a
-              href="https://devalis.github.io/#coaches"
+              href="https://paprunningteam.gr/#coaches"
               //target="_blank"
               className={classes.dropdownLink}
             >
               Coaches
             </a>,
             <a
-              href="https://devalis.github.io/#athletes"
+              href="https://paprunningteam.gr/#athletes"
               //target="_blank"
               className={classes.dropdownLink}
             >
               Team
             </a>,
             <a
-              href="https://devalis.github.io/#contact"
+              href="https://paprunningteam.gr/#contact"
               //target="_blank"
               className={classes.dropdownLink}
             >
