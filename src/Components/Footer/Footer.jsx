@@ -35,15 +35,6 @@ function Footer({ ...props }) {
                 Papachristos Running Team
               </a>
             </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.ethicsport.gr/gr/"
-                className={classes.block}
-                target="_blank"
-              >
-                Ethic Sport
-              </a>
-            </ListItem>
           </List>
         </div>
         <div className={classes.right}>

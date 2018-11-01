@@ -4,7 +4,9 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 import GridContainer from "../Grid/GridContainer.jsx";
 import PostCard from "./PostCard.jsx";
+import Button from "../CustomButtons/Button.jsx";
 //import LoadMore from "../LoadMore/LoadMore.jsx";
+
 
 import postCardStyle from "./postCardStyle.jsx";
 
