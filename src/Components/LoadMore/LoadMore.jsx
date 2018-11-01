@@ -4,12 +4,15 @@ import React from "react";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 
+import PostCard from "../Card/PostCard.jsx";
+import postCardStyle from "../Card/postCardStyle.jsx";
+
 // @material-ui/icons
 import buttonStyle from "../CustomButtons/buttonStyle.jsx";
 import {posts} from "../../posts.jsx";
 
 class LoadMore extends React.Component {
-  constructor(props) {
+    constructor(props) {
     super(props);
 
     this.state = {
@@ -27,40 +30,43 @@ class LoadMore extends React.Component {
     });
   }
 
-  // componentDidMount() {
-  //   fetch("https://jsonplaceholder.typicode.com/posts").then(
-  //     res => res.json()
-  //   ).then(res => {
-  //     this.setState({
-  //       posts: res
-  //     });
-  //   }).catch(error => {
-  //     console.error(error);
-  //     this.setState({
-  //       error: true
-  //     });
-  //   });
-  // }
+  componentDidMount() {
+    fetch("https://jsonplaceholder.typicode.com/posts").then(
+      res => res.json()
+    ).then(res => {
+      this.setState({
+        posts: res
+      });
+    }).catch(error => {
+      console.error(error);
+      this.setState({
+        error: true
+      });
+    });
+  }
 
   render() {
     return (
-      <section>
+      <section className="feed">
         <h1>Simple Load More/Pagination with React</h1>
         <h2>With Array.prototype.slice() and the power of component state!</h2>
 
-        <div>
-          {this.state.posts.slice(0, this.state.visible).map((post, index) => {
+        <div className="tiles" aria-live="polite">
+          {this.state.posts.slice(0, this.state.visible).map((post, i) => {
               return (
-                <div key={posts.id}>
-                  <span>{index+1}</span>
-                  <h2>{posts.title}</h2>
-                  <p>{posts.body}</p>
+                <div key={post.id}>
+                  <PostCard 
+                  date={posts[i].date} 
+                  fbimg={posts[i].fbimg} 
+                  description={posts[i].description} 
+                  fbpost={posts[i].fbpost}
+                  />
                 </div>
               );
             })}
           </div>
           {this.state.visible < this.state.posts.length &&
-             <button onClick={this.loadMore} type="button">Load more</button>
+             <button onClick={this.loadMore} type="button" className="load-more">Load more</button>
           }
         </section>
     );

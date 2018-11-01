@@ -13,7 +13,6 @@ import GridContainer from "../Components/Grid/GridContainer.jsx";
 import GridItem from "../Components/Grid/GridItem.jsx";
 import HeaderLinks from "../Components/Header/HeaderLinks.jsx";
 import Parallax from "../Components/Parallax/Parallax.jsx";
-//import LoadMore from "../Components/LoadMore/LoadMore.jsx";
 
 import appStyle from "./appStyle.jsx";
 

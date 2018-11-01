@@ -1,3 +1,42 @@
+ <GridContainer>
+            {this.state.posts.slice(0, this.state.visible).map((post, i) => {
+              return (
+                <PostCard 
+                  key={i}
+                  id={posts[i].id}
+                  date={posts[i].date} 
+                  fbimg={posts[i].fbimg} 
+                  description={posts[i].description} 
+                  fbpost={posts[i].fbpost}
+                />
+              );
+            })} 
+          </GridContainer> 
+          {this.state.visible < this.state.posts.length &&
+            <Button 
+              //onClick={this.loadMore}
+              color="info"
+            >
+             Load More 
+            </Button>
+          }
+
+
+ //   posts.reverse().map((post, i) => {
+            //     return (
+            //       <PostCard 
+            //         key={i} 
+            //         id={posts[i].id} 
+            //         date={posts[i].date} 
+            //         fbimg={posts[i].fbimg} 
+            //         description={posts[i].description} 
+            //         fbpost={posts[i].fbpost}
+            //       />
+            //     );
+            //   })
+            // } 
+
+
 grammatoseira century gothic
 apo pano
 
