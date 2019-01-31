@@ -57,7 +57,7 @@ class PostsList extends React.Component {
               this.state.posts.slice(0, this.state.visible).map((post, i) => {
                return (
                   <PostCard key={i}
-                  id={posts[i].id}
+                  //id={posts[i].id}
                   date={posts[i].date} 
                   fbimg={posts[i].fbimg} 
                   description={posts[i].description} 
