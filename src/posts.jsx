@@ -1,5 +1,11 @@
 export const posts = [
   {
+    date: '16 February 2019',
+    fbimg: require("./img/prt190216.jpg"),
+    description: 'Personal Record for K. Giannopoulou (4.19.50 - 1500m) and Ch. Kotitsas (1.49.35 - 800m) at Valkan Indoor Championship. Silver Medal for Giannopoulou. Congratulations!', 
+    fbpost: 'https://www.facebook.com/photo.php?fbid=2494935460536398&set=pcb.2494935757203035&type=3&theater'
+  },
+  {
     date: '26 January 2019',
     fbimg: require("./img/prt180730.jpg"),
     description: 'International indoor metting Vienna 2019! Ατομικό ρεκόρ για τον αθλητή μας Χ.Κοτίτσα στα 800μ έκανε 1.49"35. Έχασε για λίγο (1.49"20) το όριο για το Πανευρωπαϊκό Κλειστού στην Γλασκώβη. Συγχαρητήρια και καλή συνέχεια!', 
